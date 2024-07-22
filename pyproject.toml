@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "diana"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <vekshinnikita>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.9.0"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.31"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
